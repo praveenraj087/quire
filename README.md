@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Quire: Next.js 13 SaaS Platform
+
+Welcome to Quire, the complete SaaS solution built from scratch using Next.js 13. Designed to offer a seamless and efficient experience for both businesses and users, Quire includes a range of features from a beautiful landing page to real-time API responses.
+
+## Features
+
+- **Beautiful Landing Page & Pricing Page**: Engage your visitors right from the start with our stunning landing and pricing pages.
+- **Subscription Plans Using Stripe**: Easy setup for Free and Pro plans, managed securely with Stripe.
+- **Advanced PDF Viewer**: A beautiful and functional PDF viewer for a wide range of documents.
+- **Real-Time Streaming API Responses**: Get up-to-the-second updates with our streaming API.
+- **Authentication with Kinde**: Secure and simple authentication process using Kinde.
+- **Modern UI with shadcn-ui**: Experience our clean, modern user interface designed for clarity and efficiency.
+- **Optimistic UI Updates**: Enjoy a smooth and responsive user experience with optimistic UI updates.
+- **Infinite Message Loading**: Improve performance with our infinite message loading feature.
+- **Intuitive Drag & Drop Uploads**: Easily upload files with our intuitive drag and drop feature.
+- **Instant Loading States**: Experience instant feedback with our instant loading states.
+- **Modern Data Fetching with tRPC & Zod**: Utilize the latest technologies for efficient data fetching and validation.
+- **LangChain for Infinite AI Memory**: Leverage cutting-edge AI technology for an enhanced user experience.
+- **Vector Storage with Pinecone**: Take advantage of Pinecone's vector storage for fast and efficient data retrieval.
+- **Database Management with Prisma ORM**: Maintain and query your database effortlessly with Prisma ORM.
+- **100% TypeScript**: Benefit from the safety and robustness of a fully TypeScript codebase.
 
 ## Getting Started
 
-First, run the development server:
+To get started with Quire, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/quire.git
+   cd quire
+2. Install Dependencied:
+   ```bash
+   npm install
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. Set up your environment variables:
+  Create a `.env` file on your project location
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+4.Start the development Server:
+  ```bash
+  npm run dev
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+3. Set up your environment variables:
+  Create a `.env` file on your project location
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
